@@ -3,7 +3,7 @@
 Welcome to my Data Analytics Portfolio 👋
 
 This repository showcases my hands-on experience across data analytics,
-business intelligence, digital analytics, and data visualization.
+business intelligence, digital analytics, and data visualization. 
 
 ## Analytics Learning Paths
 
