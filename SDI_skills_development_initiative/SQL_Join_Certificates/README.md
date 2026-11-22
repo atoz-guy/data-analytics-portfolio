@@ -15,7 +15,18 @@ The Amazon model was the hardest because of `order_items`, a bridge table that l
 
 ## Certificates
 
-![Uber](1_Uber_ride_sharing.png)
-![DoorDash](2_DoorDash_food_delivery.png)
-![Netflix](3_Netflix_streaming.png)
-![Amazon](4_Amazon_online_shopping.png)
+### 1. Uber ride sharing
+
+![Uber ride sharing certificate](1_Uber_ride_sharing.png)
+
+### 2. DoorDash food delivery
+
+![DoorDash food delivery certificate](2_DoorDash_food_delivery.png)
+
+### 3. Netflix video streaming
+
+![Netflix video streaming certificate](3_Netflix_streaming.png)
+
+### 4. Amazon online shopping
+
+![Amazon online shopping certificate](4_Amazon_online_shopping.png)
