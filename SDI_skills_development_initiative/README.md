@@ -2,7 +2,7 @@
 
 This repository documents my progression through the **Skills Development Initiative (SDI) Data Analytics program**, including coursework, hands-on exercises, practical projects, and portfolio development.
 
-The program provides an end-to-end foundation in data analytics, progressing from fundamental data analysis and Excel through **Power BI, Python, SQL Server, Generative AI, and a final capstone project**.
+The program provides an end-to-end foundation in data analytics, progressing from fundamental data analysis and Excel  through **Power BI, Python, SQL Server, Generative AI, and a final capstone project**.
 
 ## Core Competencies
 
