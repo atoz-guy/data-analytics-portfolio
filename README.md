@@ -3,14 +3,14 @@
 Welcome to my Data Analytics Portfolio 👋
 
 This repository showcases my hands-on experience across data analytics,
-business intelligence, digital analytics, and data visualization. 
+business intelligence, and data visualization. 
 
 ## Analytics Learning Paths
 
 My analytics journey is built around three core areas:
 
 1. **Skills Development Initiative (SDI)** — Primary analytics foundation
-2. **Google Data Analytics & Advanced Analytics** — Digital and marketing analytics
+2. **Google Data Analytics** — The full analysis process, from asking questions to acting on the results
 3. **Microsoft Data Analyst** — Business intelligence and reporting
 
 ## Core Competencies
@@ -18,13 +18,12 @@ My analytics journey is built around three core areas:
 - **Data Analysis:** Exploratory analysis, trend identification, KPI development
 - **Data Preparation:** Cleaning, transformation, validation, and ETL
 - **SQL & Databases:** SQL querying and BigQuery analysis
-- **Data Visualization:** Matplotlib, Seaborn, Power BI, Looker Studio
+- **Data Visualization:** Matplotlib, Seaborn, Power BI
 - **Business Intelligence:** Power BI, DAX, data modeling
-- **Digital Analytics:** GA4, user behavior, funnels, conversions
 
-## Structured Data Insights (SDI)
+## Skills Development Initiative (SDI)
 
-SDI was the foundation of my data analytics journey.
+SDI was the foundation of my data analytics journey: a 24-session program (August to November 2026) covering Excel, Power BI, Python, SQL Server and Generative AI. See the [SDI folder](SDI_skills_development_initiative/) for coursework and certificates.
 
 ### Featured Work
 
@@ -48,33 +47,13 @@ SDI was the foundation of my data analytics journey.
 - Matplotlib
 - Seaborn
 
-## Google Data Analytics & Advanced Analytics
+## Google Data Analytics
 
-**Certificate earned:** Google Data Analytics
+**Certificate:** Google Data Analytics (in progress, finishing the Course 8 capstone case study)
 
-My Google Analytics work focuses on user behavior, website performance,
-traffic sources, and conversions.
-
-### Featured Work
-
-- GA4 data extraction
-- BigQuery analysis
-- Event-level analysis
-- User and session analysis
-- Traffic source analysis
-- Funnel analysis
-- Conversion analysis
-- Trend and anomaly detection
-- Marketing KPI reporting
-
-### Skills
-
-- Google Analytics 4
-- BigQuery
-- SQL
-- Looker Studio
-- Marketing Analytics
-- KPI Analysis
+The Google program follows a six-step process: Ask, Prepare, Process,
+Analyze, Share, and Act. The capstone case study will be added to this
+repository when it is complete.
 
 ## Microsoft Data Analyst
 
@@ -109,8 +88,7 @@ business intelligence, data modeling, dashboard development, and reporting.
 | Databases | SQL, BigQuery |
 | Visualization | Matplotlib, Seaborn |
 | Business Intelligence | Power BI |
-| Digital Analytics | Google Analytics 4 |
-| Dashboards | Power BI, Looker Studio |
+| Dashboards | Power BI |
 | Notebooks | Jupyter |
 
 ## What You'll Find Here
@@ -155,7 +133,6 @@ Future additions may include:
 - Python analytics projects
 - Advanced SQL analysis
 - BigQuery projects
-- GA4 case studies
 - End-to-end business case studies
 - Automated reporting workflows
 

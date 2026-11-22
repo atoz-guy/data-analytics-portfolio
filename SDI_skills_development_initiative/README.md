@@ -38,62 +38,54 @@ The SDI Data Analytics program consists of **24 sessions** covering multiple ana
 * **Session 2 — Excel Foundations** ✅
 * **Session 3 — Lookups and Logic** ✅
 * **Session 4 — PivotTables** ✅
-* **Session 5 — Power Query** ⬜
-* **Session 6 — Excel Dashboards & What-If Analysis** ⬜
+* **Session 5 — Power Query** ✅
+* **Session 6 — Excel Dashboards & What-If Analysis** ✅
 
 ### Module 3 — Power BI
 
-* **Session 7 — Power BI Fundamentals** ⬜
-* **Session 8 — Data Modeling** ⬜
-* **Session 9 — DAX Essentials** ⬜
-* **Session 10 — Report Design & Publishing** ⬜
+* **Session 7 — Power BI Fundamentals** ✅
+* **Session 8 — Data Modeling** ✅
+* **Session 9 — DAX Essentials** ✅
+* **Session 10 — Report Design & Publishing** ✅
 
 ### Module 4 — Python
 
-* **Session 11 — Python Fundamentals** ⬜
-* **Session 12 — Python Fundamentals** ⬜
-* **Session 13 — Pandas** ⬜
-* **Session 14 — Pandas & Data Manipulation** ⬜
-* **Session 15 — Exploratory Data Analysis** ⬜
-* **Session 16 — Visualization & Analysis** ⬜
+* **Session 11 — Python Fundamentals** ✅
+* **Session 12 — Python Fundamentals** ✅
+* **Session 13 — Pandas** ✅
+* **Session 14 — Pandas & Data Manipulation** ✅
+* **Session 15 — Exploratory Data Analysis** ✅
+* **Session 16 — Visualization & Analysis** ✅
 
 ### Module 5 — SQL Server
 
-* **Session 17 — Database Concepts** ⬜
-* **Session 18 — Core SQL Querying** ⬜
-* **Session 19 — Aggregation & Grouping** ⬜
-* **Session 20 — SQL Joins** ⬜
-* **Session 21 — Advanced SQL Queries** ⬜
+* **Session 17 — Database Concepts** ✅
+* **Session 18 — Core SQL Querying** ✅
+* **Session 19 — Aggregation & Grouping** ✅
+* **Session 20 — SQL Joins** ✅
+* **Session 21 — Advanced SQL Queries** ✅
 
 ### Module 6 — Generative AI
 
-* **Session 22 — Generative AI Foundations** ⬜
-* **Session 23 — Generative AI for Data Analysts** ⬜
+* **Session 22 — Generative AI Foundations** ✅
+* **Session 23 — Generative AI for Data Analysts** ✅
 
 ### Capstone
 
-* **Session 24 — Data Analytics Capstone** ⬜
+* **Session 24 — Data Analytics Capstone** ✅
 
-## Case Studies & Practical Work
+## Program Timeline
 
-As I progress through the program, completed coursework, exercises, and projects will be documented as individual case studies.
+The program ran from August 15 to November 8, 2026.
 
-### Completed
-
-1. **Session 1 — Introduction to Data Analysis**
-2. **Session 2 — Excel Foundations**
-3. **Session 3 — Lookups and Logic**
-4. **Session 4 — PivotTables**
-
-### Upcoming
-
-* Power Query Data Transformation
-* Excel Dashboards & What-If Analysis
-* Power BI Business Intelligence
-* Python Data Analysis
-* SQL Analytics
-* Generative AI for Data Analysts
-* SDI Data Analytics Capstone
+| Module | Dates | Evidence in this folder |
+|---|---|---|
+| Introduction and Excel | August 2026 | Session notes |
+| Power BI | September 5 to 13, 2026 | |
+| Python | September 19 to October 4, 2026 | |
+| SQL Server | October 10 to 25, 2026 | [SQL Join Studio certificates](SQL_Join_Certificates/) |
+| Generative AI | October 31 to November 1, 2026 | |
+| Capstone | Presented November 8, 2026 | |
 
 ## Platform Proficiency
 
@@ -106,13 +98,9 @@ As I progress through the program, completed coursework, exercises, and projects
 
 ## Current Progress
 
-**4 of 24 sessions completed**
+**All 24 sessions completed**, including the final capstone.
 
-My current focus is **Microsoft Excel and PivotTables**.
-
-The first four sessions have established a foundation in data analysis, Excel, lookup and logic functions, and PivotTables.
-
-The next stage of the program will continue with **Power Query and Excel dashboards**, followed by Power BI, Python, SQL Server, Generative AI, and the final capstone project.
+More coursework (Excel workbooks, Python notebooks) will be added to this folder as I clean it up for the portfolio.
 
 ## Portfolio Development
 
