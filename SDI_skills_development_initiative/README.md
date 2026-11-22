@@ -80,9 +80,9 @@ The program ran from August 15 to November 8, 2026.
 
 | Module | Dates | Evidence in this folder |
 |---|---|---|
-| Introduction and Excel | August 2026 | Session notes |
+| Introduction and Excel | August 2026 | [Lookups and logic workbook](session_03_Lookups_and_Logic/), [Excel dashboard](session_06_Excel_Dashboards/) |
 | Power BI | September 5 to 13, 2026 | |
-| Python | September 19 to October 4, 2026 | |
+| Python | September 19 to October 4, 2026 | [FIFA 21 data cleaning](Python_FIFA_Data_Cleaning/), [Bike share analysis](Python_Bikeshare_Analysis/) |
 | SQL Server | October 10 to 25, 2026 | [SQL Join Studio certificates](SQL_Join_Certificates/) |
 | Generative AI | October 31 to November 1, 2026 | |
 | Capstone | Presented November 8, 2026 | |
