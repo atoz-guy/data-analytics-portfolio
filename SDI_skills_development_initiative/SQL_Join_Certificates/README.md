@@ -2,7 +2,7 @@
 
 Practice from the SDI SQL Server module (Session 20: Joins), completed October 27 to 28, 2026.
 
-In each lab I built a relational data model by connecting the tables with the right one-to-many relationships, then solved all four join types against it: INNER, LEFT, RIGHT and FULL OUTER. I finished every lab at 100% without using hints.
+In each lab I built a relational data model by connecting the tables with the right one-to-many relationships, then solved all four join types against it: INNER, LEFT, RIGHT and FULL OUTER. I finished every lab at 100% without using hints. 
 
 | Data model | Tables | Relationships |
 |---|---|---|
