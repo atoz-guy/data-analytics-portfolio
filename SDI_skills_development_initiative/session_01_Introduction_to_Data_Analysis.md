@@ -4,7 +4,7 @@ Introduction
 
 ## Learning Objectives
 
-What this session was designed to teach.
+What this session was designed to teach. 
 
 ## Sessions Slides
 
