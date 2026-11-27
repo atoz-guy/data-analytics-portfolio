@@ -11,7 +11,7 @@ A series of SQL labs that simulate the data validation work done when a utility 
 | [Lab 01](sql-labs/Balboa_Lab01_Account_Validation.sql) | Account Reconciliation & Validation | `LEFT JOIN` reconciliation, `IS NULL` exception detection | Complete |
 | [Lab 02](sql-labs/Balboa_Lab02_Account_Status_Validation.sql) | Account Status Validation | Data profiling, `TRIM`, `LEN` vs `DATALENGTH`, safe `UPDATE`s, before/after change log | Complete |
 | [Lab 03](sql-labs/Balboa_Lab03_Migration_Exception_Report.sql) | Migration Exception Report | `CASE WHEN` classification, exception tracking table, guarded status `UPDATE`s, multi-table `JOIN` validation | Complete |
-| Lab 04 | Control Validation | | Planned |
+| [Lab 04](sql-labs/Balboa_Lab04_Control_Validation.sql) | Migration Risk & Control Validation | Control testing, `GROUP BY CASE` summaries, pass-rate math with `NULLIF`, remediation tracking table, `BIT` verification gates, `UPDATE ... FROM ... JOIN` | Complete |
 | Lab 05 | Risk Scoring | | Planned |
 | Lab 06 | Remediation Tracking | | Planned |
 | Lab 07 | Management Reporting | | Planned |
@@ -30,6 +30,11 @@ Profiles a status column with typical legacy data quality problems (abbreviation
 Detects a status mismatch between legacy and target systems (account 1002: Active → Inactive), logs it in a separate exception tracking table, and walks it through a simulated lifecycle: Open → Under Investigation → evidence and findings recorded → resolution pending approval → approved → Resolved.
 
 **Key finding:** not every discrepancy is a migration error. The simulated investigation found an authorized cancellation after the migration snapshot, so the exception was closed with **no change to customer data**. Each status `UPDATE` only runs if the previous step is complete (for example, closure requires an approver and approval reference). All evidence and approvals are fictional.
+
+### Lab 04: Migration Risk & Control Validation
+Tests control **C-001** ("every resolved exception must have a documented approval reference") against 4 exceptions: **2 Pass, 1 Fail, 1 Not Applicable, a 66.67% pass rate**. The failure (EXC-002, account 1005) is prioritized, assigned an owner, and tracked as remediation case REM-001 through investigation, management review and an approved corrective action plan. Closure is blocked until two `BIT` verification flags (corrective control implemented, effectiveness independently tested) are both set to 1.
+
+**Key finding:** fixing a control doesn't erase its failure. REM-001 ends Closed, but the original approval reference is deliberately left `NULL` and reported as "Historical Control Failure" / "Not Documented". Remediation closure and the historical record stay separate so an auditor can still see what went wrong. All approvals and verifications are simulated.
 
 ## Documentation
 

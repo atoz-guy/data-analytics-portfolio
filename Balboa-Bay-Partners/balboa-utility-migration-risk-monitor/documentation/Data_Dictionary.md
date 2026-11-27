@@ -82,6 +82,46 @@ Exception tracking record, stored separately from customer data. One row per dis
 
 **Calculated columns (not stored):** `Discrepancy_Type`, `Expected_Target_Status`, `Recommended_Action` and `Exception_Status` are also produced with `CASE WHEN` in Steps 5–9 before the exception table exists.
 
-## Labs 04–07
+## Lab 04: Migration Risk & Control Validation
+
+### `#Control_Testing_Lab04`
+Exception records tested against control C-001 (every resolved exception must have a documented approval reference). Never modified after insert.
+
+| Column | Type | Description |
+|---|---|---|
+| `Exception_ID` | `VARCHAR(10)` | Exception number, for example `EXC-002` |
+| `Account_ID` | `INT` | Customer account number |
+| `Exception_Status` | `VARCHAR(30)` | `Resolved` or `Under Investigation` |
+| `Approval_Reference` | `VARCHAR(30)` | Approval ID; `NULL` means no documented approval |
+
+Sample data: 4 rows. EXC-002 (account 1005) is Resolved with a `NULL` approval, so it fails C-001.
+
+### `#Remediation_Tracking_Lab04`
+Remediation case opened for a failed control. One row per case.
+
+| Column | Type | Description |
+|---|---|---|
+| `Remediation_ID` | `VARCHAR(10)` | Primary key, for example `REM-001` |
+| `Exception_ID` | `VARCHAR(10)` | Exception that failed the control |
+| `Account_ID` | `INT` | Customer account number |
+| `Control_ID` | `VARCHAR(10)` | Control that failed, for example `C-001` |
+| `Remediation_Status` | `VARCHAR(30)` | `Open` → `Under Investigation` → `Pending Management Review` → `Corrective Action Approved` → `Closed` |
+| `Assigned_Owner` | `VARCHAR(100)` | Role responsible for the fix (simulated) |
+| `Investigation_Finding` | `VARCHAR(300)` | What the investigation found |
+| `Recommended_Action` | `VARCHAR(200)` | Current recommended action |
+| `Investigation_Next_Step` | `VARCHAR(300)` | Next planned investigation activity |
+
+### `#Remediation_Verification_Lab04`
+Verification gates that must both pass before a remediation case can close.
+
+| Column | Type | Description |
+|---|---|---|
+| `Remediation_ID` | `VARCHAR(10)` | Primary key; links to `#Remediation_Tracking_Lab04` |
+| `Corrective_Control_Verified` | `BIT` | 1 = corrective control confirmed implemented, 0 = not verified |
+| `Effectiveness_Test_Verified` | `BIT` | 1 = control independently confirmed to work, 0 = not verified |
+
+**Calculated columns (not stored):** `Control_Result` (Pass / Fail / Not Applicable), `Remediation_Priority` (High / Low / Pending), `Pass_Rate_Percent`, `Closure_Readiness`, `Original_Control_Assessment` and `Approval_Display` are produced in queries.
+
+## Labs 05–07
 
 Tables will be added here as each lab is written.
