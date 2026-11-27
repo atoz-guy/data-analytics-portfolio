@@ -52,8 +52,8 @@ SDI was the foundation of my data analytics journey: a 24-session program (Augus
 **Certificate:** Google Data Analytics (in progress, finishing the Course 8 capstone case study)
 
 The Google program follows a six-step process: Ask, Prepare, Process,
-Analyze, Share, and Act. The capstone case study will be added to this
-repository when it is complete.
+Analyze, Share, and Act. The capstone case study will be added to the
+[Google_Data_Analytics folder](Google_Data_Analytics/) when it is complete.
 
 ## Microsoft Data Analyst
 
