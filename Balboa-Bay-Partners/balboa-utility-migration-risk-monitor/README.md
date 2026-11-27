@@ -12,9 +12,9 @@ A series of SQL labs that simulate the data validation work done when a utility 
 | [Lab 02](sql-labs/Balboa_Lab02_Account_Status_Validation.sql) | Account Status Validation | Data profiling, `TRIM`, `LEN` vs `DATALENGTH`, safe `UPDATE`s, before/after change log | Complete |
 | [Lab 03](sql-labs/Balboa_Lab03_Migration_Exception_Report.sql) | Migration Exception Report | `CASE WHEN` classification, exception tracking table, guarded status `UPDATE`s, multi-table `JOIN` validation | Complete |
 | [Lab 04](sql-labs/Balboa_Lab04_Control_Validation.sql) | Migration Risk & Control Validation | Control testing, `GROUP BY CASE` summaries, pass-rate math with `NULLIF`, remediation tracking table, `BIT` verification gates, `UPDATE ... FROM ... JOIN` | Complete |
-| Lab 05 | Risk Scoring | | Planned |
-| Lab 06 | Remediation Tracking | | Planned |
-| Lab 07 | Management Reporting | | Planned |
+| Lab 05 (`Balboa_Lab05_Risk_Scoring.sql`) | Risk Scoring | | Planned |
+| Lab 06 (`Balboa_Lab06_Remediation_Tracking.sql`) | Remediation Tracking | | Planned |
+| Lab 07 (`Balboa_Lab07_Management_Reporting.sql`) | Management Reporting | | Planned |
 
 ### Lab 01: Account Reconciliation & Validation
 Compares legacy and target account IDs to find **missing** accounts (in legacy, not in target) and **unexpected** accounts (in target, never in legacy).
