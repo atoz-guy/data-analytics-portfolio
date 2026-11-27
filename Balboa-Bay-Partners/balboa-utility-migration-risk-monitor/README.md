@@ -10,7 +10,7 @@ A series of SQL labs that simulate the data validation work done when a utility 
 |---|---|---|---|
 | [Lab 01](sql-labs/Balboa_Lab01_Account_Validation.sql) | Account Reconciliation & Validation | `LEFT JOIN` reconciliation, `IS NULL` exception detection | Complete |
 | [Lab 02](sql-labs/Balboa_Lab02_Account_Status_Validation.sql) | Account Status Validation | Data profiling, `TRIM`, `LEN` vs `DATALENGTH`, safe `UPDATE`s, before/after change log | Complete |
-| [Lab 03](sql-labs/Balboa_Lab03_Migration_Exception_Report.sql) | Migration Exception Report | `CASE WHEN` classification, exception tracking table, `ALTER TABLE`, guarded status `UPDATE`s, multi-table `JOIN` validation | Complete |
+| [Lab 03](sql-labs/Balboa_Lab03_Migration_Exception_Report.sql) | Migration Exception Report | `CASE WHEN` classification, exception tracking table, guarded status `UPDATE`s, multi-table `JOIN` validation | Complete |
 
 ### Lab 01: Account Reconciliation & Validation
 Compares legacy and target account IDs to find **missing** accounts (in legacy, not in target) and **unexpected** accounts (in target, never in legacy).

@@ -246,7 +246,13 @@ CREATE TABLE #Migration_Exceptions (
     Discrepancy_Type VARCHAR(50),
     Exception_Status VARCHAR(30),
     Recommended_Action VARCHAR(150),
-    Evidence_Reference VARCHAR(100)
+    Evidence_Reference VARCHAR(100),
+    Investigation_Findings VARCHAR(500),
+    Resolution_Decision VARCHAR(200),
+    Resolution_Reason VARCHAR(500),
+    Resolution_Status VARCHAR(30),
+    Approved_By VARCHAR(100),
+    Approval_Reference VARCHAR(100)
 );
 
 
@@ -334,15 +340,12 @@ WHERE Exception_ID = 'EXC-001';
 
 
 -- =====================================================
--- STEP 13A: ADD INVESTIGATION FINDINGS COLUMN
+-- STEP 13A: INVESTIGATION FINDINGS COLUMN
 -- =====================================================
--- ALTER TABLE changes the table structure.
--- Expected: 1 new column added.
+-- Column already created in Step 10A.
+-- No ALTER TABLE required.
 
-ALTER TABLE #Migration_Exceptions
-ADD Investigation_Findings VARCHAR(500);
 
-GO
 
 
 -- STEP 13B: RECORD SIMULATED FINDINGS
@@ -371,18 +374,13 @@ WHERE Exception_ID = 'EXC-001';
 
 
 -- =====================================================
--- STEP 14A: ADD RESOLUTION DOCUMENTATION FIELDS
+-- STEP 14A: RESOLUTION DOCUMENTATION FIELDS
 -- =====================================================
--- Preserve investigation findings separately.
--- Expected: 3 new columns added.
+-- Columns already created in Step 10A.
+-- No ALTER TABLE required.
 
-ALTER TABLE #Migration_Exceptions
-ADD
-    Resolution_Decision VARCHAR(200),
-    Resolution_Reason VARCHAR(500),
-    Resolution_Status VARCHAR(30);
 
-GO
+
 
 
 -- STEP 14B: DOCUMENT SIMULATED RESOLUTION
@@ -416,16 +414,11 @@ WHERE Exception_ID = 'EXC-001';
 
 
 -- =====================================================
--- STEP 15A: ADD APPROVAL TRACKING FIELDS
+-- STEP 15A: APPROVAL TRACKING FIELDS
 -- =====================================================
--- Expected: 2 new columns added.
+-- Columns already created in Step 10A.
+-- No ALTER TABLE required.
 
-ALTER TABLE #Migration_Exceptions
-ADD
-    Approved_By VARCHAR(100),
-    Approval_Reference VARCHAR(100);
-
-GO
 
 
 -- STEP 15B: RECORD SIMULATED APPROVAL
