@@ -1,145 +1,132 @@
-# Data Analytics Portfolio
+# 🥇 Skills Development Initiative (SDI) — Data Analytics
 
-Welcome to my Data Analytics Portfolio 👋
+This repository documents my progression through the **Skills Development Initiative (SDI) Data Analytics program**, including coursework, hands-on exercises, practical projects, and portfolio development.
 
-This repository showcases my hands-on experience across data analytics,
-business intelligence, and data visualization. 
-
-## Analytics Learning Paths
-
-My analytics journey is built around three core areas:
-
-1. **Skills Development Initiative (SDI)** — Primary analytics foundation
-2. **Google Data Analytics** — The full analysis process, from asking questions to acting on the results
-3. **Microsoft Data Analyst** — Business intelligence and reporting
+The program provides an end-to-end foundation in data analytics, progressing from fundamental data analysis and Excel  through **Power BI, Python, SQL Server, Generative AI, and a final capstone project**.
 
 ## Core Competencies
 
-- **Data Analysis:** Exploratory analysis, trend identification, KPI development
-- **Data Preparation:** Cleaning, transformation, validation, and ETL
-- **SQL & Databases:** SQL querying and BigQuery analysis
-- **Data Visualization:** Matplotlib, Seaborn, Power BI
-- **Business Intelligence:** Power BI, DAX, data modeling
+* **Data Analysis:** Applying structured approaches to explore, interpret, and communicate data.
+* **Excel Analytics:** Data preparation, formulas, lookups, PivotTables, Power Query, and dashboards.
+* **Business Intelligence:** Building data models, calculations, reports, and interactive dashboards with Power BI.
+* **Python Analytics:** Using Python and Pandas for data manipulation, exploratory analysis, and visualization.
+* **SQL:** Querying relational databases, aggregating data, joining datasets, and developing advanced queries.
+* **Generative AI:** Exploring practical applications of AI within the data analyst workflow.
+* **Data Storytelling:** Translating analytical findings into clear insights and business recommendations.
 
-## Skills Development Initiative (SDI)
+## The Analytics Learning Workflow
 
-SDI was the foundation of my data analytics journey: a 24-session program (August to November 2026) covering Excel, Power BI, Python, SQL Server and Generative AI. See the [SDI folder](SDI_skills_development_initiative/) for coursework and certificates.
+I follow a structured workflow to approach data analysis and develop practical analytical solutions:
 
-### Featured Work
+1. **Understand:** Define the business question and understand the data.
+2. **Prepare:** Clean, organize, validate, and transform the data.
+3. **Analyze:** Explore the data to identify patterns, trends, and relationships.
+4. **Model:** Develop data models and calculations to support deeper analysis.
+5. **Visualize:** Create dashboards, reports, and visualizations.
+6. **Communicate:** Present findings and translate insights into actionable recommendations.
 
-- ETL pipelines
-- Data cleaning and transformation
-- Schema validation
-- Data quality checks
-- Exploratory Data Analysis (EDA)
-- KPI development
-- Trend analysis
-- Dashboard prototypes
-- Analytical storytelling
+## Course Progress
 
-### Skills
+The SDI Data Analytics program consists of **24 sessions** covering multiple analytics technologies and methodologies.
 
-- Python
-- Pandas
-- NumPy
-- SQL
-- Data Modeling
-- Matplotlib
-- Seaborn
+### Module 1 — Introduction to Data Analysis
 
-## Google Data Analytics
+* **Session 1 — Introduction to Data Analysis** ✅
 
-**Certificate:** Google Data Analytics (in progress, finishing the Course 8 capstone case study)
+### Module 2 — Microsoft Excel
 
-The Google program follows a six-step process: Ask, Prepare, Process,
-Analyze, Share, and Act. The capstone case study will be added to this
-repository when it is complete.
+* **Session 2 — Excel Foundations** ✅
+* **Session 3 — Lookups and Logic** ✅
+* **Session 4 — PivotTables** ✅
+* **Session 5 — Power Query** ✅
+* **Session 6 — Excel Dashboards & What-If Analysis** ✅
 
-## Microsoft Data Analyst
+### Module 3 — Power BI
 
-The Microsoft Data Analyst learning path strengthened my skills in
-business intelligence, data modeling, dashboard development, and reporting.
+* **Session 7 — Power BI Fundamentals** ✅
+* **Session 8 — Data Modeling** ✅
+* **Session 9 — DAX Essentials** ✅
+* **Session 10 — Report Design & Publishing** ✅
 
-### Featured Work
+### Module 4 — Python
 
-- Power BI dashboards
-- Data modeling
-- DAX calculations
-- Business KPI reporting
-- Interactive visualizations
-- Report development
-- Data storytelling
-- Stakeholder-focused analysis
+* **Session 11 — Python Fundamentals** ✅
+* **Session 12 — Python Fundamentals** ✅
+* **Session 13 — Pandas** ✅
+* **Session 14 — Pandas & Data Manipulation** ✅
+* **Session 15 — Exploratory Data Analysis** ✅
+* **Session 16 — Visualization & Analysis** ✅
 
-### Skills
+### Module 5 — SQL Server
 
-- Power BI
-- DAX
-- Data Modeling
-- Business Intelligence
-- Data Visualization
+* **Session 17 — Database Concepts** ✅
+* **Session 18 — Core SQL Querying** ✅
+* **Session 19 — Aggregation & Grouping** ✅
+* **Session 20 — SQL Joins** ✅
+* **Session 21 — Advanced SQL Queries** ✅
 
-## Technical Skills
+### Module 6 — Generative AI
 
-| Category | Tools |
-|---|---|
-| Programming | Python |
-| Data Analysis | Pandas, NumPy |
-| Databases | SQL, BigQuery |
-| Visualization | Matplotlib, Seaborn |
-| Business Intelligence | Power BI |
-| Dashboards | Power BI |
-| Notebooks | Jupyter |
+* **Session 22 — Generative AI Foundations** ✅
+* **Session 23 — Generative AI for Data Analysts** ✅
 
-## What You'll Find Here
+### Capstone
 
-This portfolio focuses on practical analytics rather than coursework alone.
+* **Session 24 — Data Analytics Capstone** ✅
 
-- **Data Analysis:** Identifying patterns, trends, relationships, and anomalies.
-- **Data Preparation:** Cleaning, transforming, and validating datasets.
-- **Visualization:** Communicating complex information through clear visuals.
-- **Dashboard Development:** Building KPI-driven interactive dashboards.
-- **Business Insights:** Translating analysis into actionable recommendations.
+## Capstone Projects
 
-## My Analytics Approach
+| Capstone | Business Question | Status |
+|---|---|---|
+| [Retail Capstone](Retail-Capstone/) | Why did profit fall when revenue grew? | Complete |
+| [Food Capstone](Food-Capstone/) | Why are repeat customers leaving in certain cities? | In progress |
+| [Lending Capstone](Lending-Capstone/) | Why are approvals falling and early defaults rising? | In progress |
 
-I use data to answer four key questions:
+## Program Timeline
 
-1. **What happened?**
-2. **Why did it happen?**
-3. **What is likely to happen next?**
-4. **What actions can we take based on the data?**
+The program ran from August 15 to November 8, 2026.
 
-My goal is not simply to create charts or dashboards, but to use data
-to tell a meaningful story and support better decisions.
+| Module | Dates | Evidence in this folder |
+|---|---|---|
+| Introduction and Excel | August 2026 | [Lookups and logic workbook](session_03_Lookups_and_Logic/), [Excel dashboard](session_06_Excel_Dashboards/) |
+| Power BI | September 5 to 13, 2026 | |
+| Python | September 19 to October 4, 2026 | [FIFA 21 data cleaning](Python_FIFA_Data_Cleaning/), [Bike share analysis](Python_Bikeshare_Analysis/) |
+| SQL Server | October 10 to 25, 2026 | [SQL Join Studio certificates](SQL_Join_Certificates/) |
+| Generative AI | October 31 to November 1, 2026 | |
+| Capstone | Presented November 8, 2026 | |
 
-## Portfolio Projects
+## Platform Proficiency
 
-As projects are completed, they will be organized into dedicated
-folders and case studies.
+* **Microsoft Excel:** Data preparation, formulas, lookups, PivotTables, and analytical reporting.
+* **Power BI:** Data modeling, DAX, interactive reports, and business intelligence.
+* **Python:** Data analysis, Pandas, exploratory analysis, and visualization.
+* **SQL Server:** Database querying, data manipulation, joins, and analytical SQL.
+* **Generative AI:** Exploring AI-assisted workflows for analysis, research, and productivity.
+* **GitHub:** Documenting projects, organizing analytical work, and building a professional portfolio.
 
-### Featured Projects
+## Current Progress
 
-- **[Retail Capstone: Why Did Profit Fall When Revenue Grew?](Retail-Capstone/)**: Used SQL, Excel, Python and Power BI to find out why 2025 profit fell 6.8% while revenue grew 12.0%. Found two main causes: heavy Midwest discounts and a spike in Kelvane brand returns.
+**All 24 sessions completed**, including the final capstone.
 
-## Portfolio Growth
+More coursework (Excel workbooks, Python notebooks) will be added to this folder as I clean it up for the portfolio.
 
-This repository is a work in progress and will continue to grow as I
-develop additional projects and expand my analytics skill set.
+## Portfolio Development
 
-Future additions may include:
+This repository will continue to evolve throughout the SDI program.
 
-- Advanced Power BI dashboards
-- Python analytics projects
-- Advanced SQL analysis
-- BigQuery projects
-- End-to-end business case studies
-- Automated reporting workflows
+The goal is to document not only **what I learned**, but also how I apply those skills to practical data problems.
 
-## Let's Connect
+Completed projects and case studies will include, where applicable:
 
-I'm always interested in connecting with other data professionals,
-collaborating on analytics projects, and exploring opportunities to
-apply data to real-world problems.
+* Dataset and data sources
+* Data preparation
+* Analytical approach
+* Tools and technologies
+* Visualizations
+* Key findings
+* Business insights
+* Recommendations
 
-Thanks for visiting my portfolio! ⭐
+---
+
+*This repository is part of my ongoing professional development in data analytics and my commitment to building practical, portfolio-ready skills.*
