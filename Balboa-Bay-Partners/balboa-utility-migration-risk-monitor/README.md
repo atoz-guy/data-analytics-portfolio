@@ -17,26 +17,24 @@ A series of SQL labs that simulate the data validation work done when a utility 
 | Lab 07 (`Balboa_Lab07_Management_Reporting.sql`) | Management Reporting | | Planned |
 
 ### Lab 01: Account Reconciliation & Validation
-Compares legacy and target account IDs to find **missing** accounts (in legacy, not in target) and **unexpected** accounts (in target, never in legacy).
+I compared the account IDs in the legacy and target systems to see which accounts were missing and which showed up unexpectedly.
 
-**Key finding:** both systems hold 4 records, yet their account identities don't fully match (1003 missing, 1005 unexpected). **Matching row counts don't guarantee matching customer accounts.**
+**Key finding:** Both systems had four records, but account 1003 was missing from the target and account 1005 showed up unexpectedly. If I had only checked the row counts, I would have missed both.
 
 ### Lab 02: Account Status Validation
-Profiles a status column with typical legacy data quality problems (abbreviations, typos, hidden trailing spaces), fixes a working copy while keeping the original untouched, and proves the result with validation checks.
+I checked the legacy status values for abbreviations, typos, and extra spaces. I cleaned up a working copy so I could compare the results with the original data.
 
-**Key finding:** SQL Server ignores trailing spaces when comparing text, so a standard `<>` comparison **misses** a whitespace-only fix. Adding a `DATALENGTH` comparison catches all three corrections (Steps 19 vs. 20).
+**Key finding:** My first check using `<>` missed a correction (account 1005) because SQL Server treats values that differ only by trailing spaces as equal in that comparison. When I added `DATALENGTH`, the validation picked up all three corrections. You can see the difference in Steps 19 and 20.
 
 ### Lab 03: Migration Exception Report
-Detects a status mismatch between legacy and target systems (account 1002: Active → Inactive), logs it in a separate exception tracking table, and walks it through a simulated lifecycle: Open → Under Investigation → evidence and findings recorded → resolution pending approval → approved → Resolved.
+I found that account 1002 was Active in the legacy data and Inactive in the target. I logged the mismatch and tracked it from investigation through approval and resolution.
 
-**Key finding:** not every discrepancy is a migration error. The simulated investigation found an authorized cancellation after the migration snapshot, so the exception was closed with **no change to customer data**. Each status `UPDATE` only runs if the previous step is complete (for example, closure requires an approver and approval reference). All evidence and approvals are fictional.
+**Key finding:** In the simulated investigation, the account had been canceled with authorization after the migration snapshot. That explained the mismatch, so I resolved the exception without changing the customer data. The SQL also checked that each step was complete before moving to the next. For example, closure required both an approver and an approval reference. The evidence and approvals were simulated.
 
 ### Lab 04: Migration Risk & Control Validation
-Tests control **C-001** ("every resolved exception must have a documented approval reference") against 4 exceptions: **2 Pass, 1 Fail, 1 Not Applicable, a 66.67% pass rate**. The failure (EXC-002, account 1005) is prioritized, assigned an owner, and tracked as remediation case REM-001 through investigation, management review and an approved corrective action plan. Closure is blocked until two `BIT` verification flags (corrective control implemented, effectiveness independently tested) are both set to 1.
+I tested C-001, which requires a documented approval reference for every resolved exception. Of the four exceptions I reviewed, two passed, one failed, and one didn't apply. That gave me a 66.67% pass rate across the three exceptions the control applied to.
 
-**Key finding:** Fixing a control failure doesn't make it go away. I closed REM-001, but I left the original approval reference blank (`NULL`) on purpose. The report still shows **Historical Control Failure** and lists the original approval as **Not Documented**. That way, an auditor can see what was missing at the time, and that it was later fixed through REM-001.
-
-All approvals and verifications in this lab were simulated.
+**Key finding:** EXC-002 failed because its original approval wasn't documented. I tracked the fix under REM-001 and closed it after confirming the corrective control was in place and had been independently tested. I left the original approval reference blank (`NULL`), so the report still shows **Historical Control Failure** and **Not Documented**. An auditor can see what was missing at the time and what was done to fix it. All approvals and verifications were simulated.
 
 ## Documentation
 
