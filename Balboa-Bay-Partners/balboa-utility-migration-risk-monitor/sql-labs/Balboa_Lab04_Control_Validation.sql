@@ -5,7 +5,7 @@
 -- PURPOSE:
 --   Test control C-001, investigate an exception, track
 --   remediation, apply verification gates, and report
---   the original approval gap alongside remediation closure.
+--   the original approval gap alongside remediation closure. 
 --
 -- CONTROL C-001:
 --   Every resolved migration exception must have a
