@@ -6,4 +6,4 @@ Work from the **Google Data Analytics Professional Certificate**, which follows 
 
 ## Contents
 
-Coming soon. Course work and the capstone case study will be added here as they are cleaned up for the portfolio.
+Coming soon. Course work and the capstone case study will be added here as they are cleaned up for the portfolio. 
