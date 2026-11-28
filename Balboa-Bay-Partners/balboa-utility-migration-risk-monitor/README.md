@@ -34,7 +34,7 @@ Detects a status mismatch between legacy and target systems (account 1002: Activ
 ### Lab 04: Migration Risk & Control Validation
 Tests control **C-001** ("every resolved exception must have a documented approval reference") against 4 exceptions: **2 Pass, 1 Fail, 1 Not Applicable, a 66.67% pass rate**. The failure (EXC-002, account 1005) is prioritized, assigned an owner, and tracked as remediation case REM-001 through investigation, management review and an approved corrective action plan. Closure is blocked until two `BIT` verification flags (corrective control implemented, effectiveness independently tested) are both set to 1.
 
-**Key finding:** I closed REM-001 and left the original approval reference blank (`NULL`). The report still shows **Historical Control Failure** and lists the original approval as **Not Documented**. That way, an auditor can see what was missing at the time and that the issue was later resolved.
+**Key finding:** Fixing a control failure doesn't make it go away. I closed REM-001, but I left the original approval reference blank (`NULL`) on purpose. The report still shows **Historical Control Failure** and lists the original approval as **Not Documented**. That way, an auditor can see what was missing at the time, and that it was later fixed through REM-001.
 
 All approvals and verifications in this lab were simulated.
 
