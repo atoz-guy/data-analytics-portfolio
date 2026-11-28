@@ -2,7 +2,7 @@
 
 A series of SQL labs that simulate the data validation work done when a utility moves customer data from a legacy Customer Information System (CIS) to a modern platform such as SAP. Each lab finds a different kind of migration risk, checks it with SQL, and documents the results the way a consulting validation report would.
 
-> Independent learning project. Not affiliated with or endorsed by Balboa Bay Partners. All data is fictional. 
+> Independent learning project. Not affiliated with or endorsed by Balboa Bay Partners. All data is fictional.
 
 ## SQL Labs
 
